@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "spirv-enums"
+version = "1.0"
+description = "A lightweight Python packages containing enums for the SPIR-V language"
+authors = ["Rayan Hatout <rayan.hatout@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+homepage = "https://github.com/rayanht/SPIRV-Enums"
+repository = "https://github.com/rayanht/SPIRV-Enums"
+keywords = ["enums", "spirv", "spirv-lang", "spirv-lang-spec", "spirv-tools"]
+classifiers = [
+    "Development Status :: 6 - Mature",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Topic :: Multimedia :: Graphics",
+    "License :: OSI Approved :: Apache Software License",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
