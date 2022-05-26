@@ -9,7 +9,7 @@ homepage = "https://github.com/rayanht/SPIRV-Enums"
 repository = "https://github.com/rayanht/SPIRV-Enums"
 keywords = ["enums", "spirv", "spirv-lang", "spirv-lang-spec", "spirv-tools"]
 classifiers = [
-    "Development Status :: 6 - Mature",
+    "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
     "Natural Language :: English",
     "Topic :: Multimedia :: Graphics",
